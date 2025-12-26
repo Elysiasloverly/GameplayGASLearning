@@ -14,7 +14,7 @@ class GASLEARNING_API UAuraUserWidget : public UUserWidget
 {
 	GENERATED_BODY()
 public:
-	UFUNCTION()
+	UFUNCTION(BlueprintCallable)
 	void SetWidgetController(UObject* InWidgetController);
 	
 	UPROPERTY(BlueprintReadOnly)
