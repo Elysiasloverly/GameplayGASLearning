@@ -17,8 +17,14 @@ class GASLEARNING_API AAuraEnemy : public AAuraCharacterBase,public IEnemyInterf
 	
 public:
 	AAuraEnemy();
+	
+	// enemy interface
 	virtual void HighlightActor() override;
 	virtual void UnHighlightActor() override;
+	//end
+	
+protected:
+	virtual void BeginPlay() override;
 	
 	
 };
