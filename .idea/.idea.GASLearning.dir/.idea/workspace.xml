@@ -8,34 +8,142 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ddb9946-b3b9-4a97-8d25-4a47541c58fc" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/BP/AbilitySystem/Data/DA_AttributeInfo.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/BP/UI/AttributeMEnu/WBP_AttributeMenu.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/BP/UI/AttributeMEnu/WBP_FramedValue.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/BP/UI/AttributeMEnu/WBP_TextValueButton.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/BP/UI/AttributeMEnu/WBP_TextValueRow.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/BP/UI/Button/WBP_Button.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/BP/UI/Button/WBP_WideButton.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/BP/UI/WidgetController/BP_AttributeMenuWidgetController.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Private/AbilitySystem/AuraABilisystemLibrary.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Private/AbilitySystem/Data/AttributeInfo.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Private/AuraAssetManager.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Private/AuraGamePlayTags.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Private/UI/WidgetController/AttributeMenuWidgetController.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Public/AbilitySystem/AuraABilisystemLibrary.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Public/AbilitySystem/Data/AttributeInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Public/AuraAssetManager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Public/AuraGamePlayTags.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Public/UI/WidgetController/AttributeMenuWidgetController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BP/AbilitySystem/GamePlayAbilities/Fire/FIrebolt/BP_FireBolt.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BP/AbilitySystem/GamePlayAbilities/Fire/FIrebolt/GA_FireBolt.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BP/AbilitySystem/GamePlayAbilities/GA_TestGamePlayAvility.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BP/Input/DA_AuraInputConfig.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BP/Input/InputAction/IA_1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BP/Input/InputAction/IA_2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BP/Input/InputAction/IA_3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BP/Input/InputAction/IA_4.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BP/Input/InputAction/IA_LMB.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BP/Input/InputAction/IA_RMB.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/0/23/3HQI53ZX58ARPHKCZW582V.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/0/WK/1A6WSXXABTKQRU4FX6DE5I.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/1/P1/W4EBW1KM5UIC6ERRS1YL87.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/1/S5/KJ5MX36BVYHIQ0KUABCT3L.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/1/SW/ZS23L470KLA4QKB64JIDG6.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/2/0K/1GLHEFR50JLNT9IAZYYF89.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/2/43/O8F0E2GISXDNFER7WNEQGI.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/2/PR/T2XV96PZL7F8DCRAZV6H81.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/3/4G/OGGP8VTHZUSDNR0OZRWD0B.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/3/OC/Y7H5L089JN2HN9NYILLI7H.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/4/74/NZSR0NBUHOZD9GKU1GVIZB.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/5/2A/OCB37RRUWUS9ICC9RA0BO3.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/5/4D/0HDEQCVM6DPO0TAAYV5NNP.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/5/QZ/EV3ZXYEWAW1LIBPV02GG38.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/6/76/OJXABX6CSKFOIPX3V6SF2D.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/7/SK/DM27JDSS6PRA6IKE76Q9KK.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/8/9F/KJ4B110C0Q3O8QUUS3SICU.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/8/Q0/J410OM95WPPG4S77JHZK6P.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/8/X0/KX8LMG1QOGWH3729K075U1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/9/3F/G3KV5RHRPQDQRBR6RK4F70.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/9/T6/QUEX35ZXIBGXEPC7XJNKVC.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/A/AV/31YZHSTAIP1IJP3KE563L9.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/A/NF/BHQ7SSVTZGO4O2TRRHDFKP.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/A/UP/MZXTIOMW3216QBQN0P86UN.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/B/7M/FRS9XIRVJHSCGKTRHOK2PA.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/B/ZX/Z2KA2O2WSGKCL34ON2OPBF.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/C/0B/7IMINHW3GXEKJH8HUAY9SA.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/C/KR/N1F9F5APGHGQNY9SLIFW17.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/C/XL/9UIGNAM6VBMQSKPSWTS7ZQ.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/D/9S/C62DWBNH9NTKV8SVQI24DP.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/D/L4/LI648OSOK1LYZUIZLSH4US.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/D/LJ/MWHKZ399KCIOKKEY75F0NC.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/E/KZ/JE9U8A1V1PBVFXG37H9217.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Private/AbilitySystem/Ability/AuraGameplayAbility.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Private/AbilitySystem/Ability/AuraProjectileSpell.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Private/Actor/AuraProjectile.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Private/Input/AuraInputComponent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Private/Input/AuraInputConfig.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Public/AbilitySystem/Ability/AuraGameplayAbility.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Public/AbilitySystem/Ability/AuraProjectileSpell.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Public/Actor/AuraProjectile.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Public/Input/AuraInputComponent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/GASLearning/Public/Input/AuraInputConfig.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GASLearning.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GASLearning.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/UI/HUD/BP_AuraHUD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/UI/HUD/BP_AuraHUD.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BP/UI/Overlay/WBP_Overlay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/UI/Overlay/WBP_Overlay.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Characters/Aura/Staff/SK_Staff.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Characters/Aura/Staff/SK_Staff.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/Character/Aura/BP_AuraCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Character/Aura/BP_AuraCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/Input/IMC_AuraContext.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Input/IMC_AuraContext.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BP/Player/BP_AuraPlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BP/Player/BP_AuraPlayerController.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/0/7B/JDLP9YNMPSZRXYOKMYMD2S.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/0/NM/3MX34YTZB3MRTQSDMWGK3U.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/0/VA/4B3DNV6S1TDDUKFQO03BAZ.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/1/DE/D9X1WCACU6TYK6RXHBGETS.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/1/JE/ST7QOAOGHPLTGWUOZRSRVT.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/1/S3/CTVBOK1UP2X7R9SNT4D2M9.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/1/VU/IVCW0DUMAJ7VNDT4EWLFJR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/1/XW/PA43H3XKRMIOLPY3FGM5C0.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/2/08/0SKA1CLS8SQB71VADNF0Q4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/2/0N/YJFRHDMLTYWHTBM4208W2P.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/2/7E/HY0SFN57ID11Y7UKO2LKL4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/2/93/S0R8X1OQOU8H0HJF7RVSWN.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/2/H8/T5H9JDF0BB44HPXWRXEAUW.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/2/N6/65WAAY0P2A1DRU97PGIOHQ.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/3/0V/7RYZAD04L337BOW5PBA53B.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/3/BK/ZERD4IG96Y3MIZXFUCPCZY.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/3/HU/V57XL1OMIVUYBW84N5IG2N.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/3/T8/AN2YO12T4NBV178U30POMI.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/3/VM/W2GKLSQTBAU9HQQN2LA01D.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/4/EH/T4B7KMPFTKCQSVOP40X4Q4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/5/EB/78ESLZB7SJCEP9MSCFWN2R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/6/60/L1RZ0A6ZPEOWE5NVJ2540X.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/7/D5/3B3NNZM720PRTXTRO1JNAU.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/7/N3/OICAMZXC536O6UL8EN9BS1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/7/RG/6YTG5IH6BM0PKDK8HPQ4GX.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/7/YV/CRWKK1MVNA0X1IF76OFAS3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/8/DR/E1VMKIJDQVM4VK2MYW9R6A.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/8/FB/92H9S4EKBAGWN3D3WDUAAV.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/8/M3/18FDJT1MFJUGFENANUF93D.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/8/TR/1ZZWFT86G8IWOAWTN9ACU0.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/9/48/SBBWXM6QGE15PGGTB9W7DV.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/9/8T/GOAQPMTG45DVWNVR500ETZ.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/9/9F/8BZ732ZVIT6EUBDGJKF6YR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/9/AM/6I7HZ2AIVDM5VUVRHU5582.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/9/BE/V9Y8KL5S8SKUFIHDNVCWIG.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/9/DR/QA4X6QKAI2INDSG3ASYRXD.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/9/DS/6CLY4RKA74VNL710FS5RXH.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/9/NX/XQP59G8HZ9HL0I0XLFN3T2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/9/PW/DTMFJPYH9PANO7GHF8LT4N.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/9/R7/8E6BARSF0XCY4GXK0NZMSH.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/A/0I/TP0NCZ4GC2GDR8JPIG21RR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/A/1K/ULJZNHI138EO2SH4Z9EJJ0.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/A/3A/7ZLILQT8BINZNWQ3XBXTUP.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/A/AH/TAGVNK6MDNN04G62WSE948.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/A/M7/EPP1J21M8U33YZ4EQYXYLQ.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/A/VS/A3T3BPXA7GAM0RVYBM3C09.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/A/W8/4MUQSTH331A6EQW9GLAU26.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/B/8L/8S55UYUP9D2DE41IFVAAWY.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/B/G2/D26FI26XLOVW2PIOC4XB4B.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/B/JC/ICIOKMZJY20OQ5AZELNZV3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/B/NB/PAYFHGAYBI1SX3BD4N7FX4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/B/T7/L3OAIWRHY362DCVDEFF7O6.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/C/0K/AFM456O2IXWZ978WHPZRGM.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/C/AN/VJT5IDBUZ28GBQZQ2IBDOO.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/C/BX/BFHOBTTD9FU6XFMD0GGI6R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/C/IR/1NKACVJ7BZYTXPSXFY6J0A.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/C/QL/ZWIPMK4CURVTD0DPBXJDGS.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/C/U2/ULH84T3S8VI8FRN86RL7SD.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/D/7H/L4G1522Z0LQ50EUWKW3JFS.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/D/RM/JD1OOND0EM10T18QT1CM4B.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/E/FS/4ME07PNYG6SYYJ1PH9JEE7.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/E/WY/P7YAF1W5VQLAM5LV1NCIVK.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/E/YO/NGZ9IGMC41NT5VMP49VV1V.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/Map/map/F/2W/WV8T9B79H32BPJB135HUI1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GASLearning/GASLearning.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/GASLearning.Build.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/GASLearning/Private/AbilitySystem/AuraAbilitySystemComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/Private/AbilitySystem/AuraAbilitySystemComponent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GASLearning/Private/AbilitySystem/AuraAttributeSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/Private/AbilitySystem/AuraAttributeSet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GASLearning/Private/UI/HUD/AuraHUD.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/Private/UI/HUD/AuraHUD.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GASLearning/Public/AbilitySystem/AuraAttributeSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/Public/AbilitySystem/AuraAttributeSet.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GASLearning/Public/UI/HUD/AuraHUD.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/Public/UI/HUD/AuraHUD.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GASLearning/Public/UI/WidgetController/AuraWidgetController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/Public/UI/WidgetController/AuraWidgetController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GASLearning/Private/AuraGamePlayTags.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/Private/AuraGamePlayTags.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GASLearning/Private/Character/AuraCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/Private/Character/AuraCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GASLearning/Private/Character/AuraCharacterBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/Private/Character/AuraCharacterBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GASLearning/Private/Interaction/CombatInterface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/Private/Interaction/CombatInterface.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GASLearning/Private/Player/AuraPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/Private/Player/AuraPlayerController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GASLearning/Public/AbilitySystem/AuraAbilitySystemComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/Public/AbilitySystem/AuraAbilitySystemComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GASLearning/Public/AuraGamePlayTags.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/Public/AuraGamePlayTags.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GASLearning/Public/Character/AuraCharacterBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/Public/Character/AuraCharacterBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GASLearning/Public/Interaction/CombatInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/Public/Interaction/CombatInterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GASLearning/Public/Player/AuraPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GASLearning/Public/Player/AuraPlayerController.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,14 +180,19 @@
     <setting file="file://C:/Program Files/Epic Games/UE_5.7/Engine/Source/Editor/ActionableMessage/ActionableMessage.build.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/CoreUObject/Public/UObject/Interface.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectPtr.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/Engine/Classes/GameFramework/Pawn.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/SlateCore/Private/Application/ActiveTimerHandle.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_5.7/Engine/Source/Runtime/SlateCore/Private/Application/ActiveTimerHandle.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/GASLearning/Private/AbilitySystem/Ability/AuraProjectileSpell.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Private/AbilitySystem/AuraABilisystemLibrary.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Private/AbilitySystem/AuraAttributeSet.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Private/AbilitySystem/Data/AttributeInfo.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Private/AbilitySystem/ModMagCalc/MMC_MaxMana.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Private/Actor/AuraEffectActor.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/GASLearning/Private/Actor/AuraProjectile.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Private/Game/AuraGameModeBase.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/GASLearning/Private/Input/AuraInputComponent.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/GASLearning/Private/Input/AuraInputConfig.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Private/Interaction/CombatInterface.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Private/Player/AuraPlayerController.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Private/Player/AuraPlayerState.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -88,12 +201,16 @@
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Private/UI/WidgetController/AuraWidgetController.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Private/UI/WidgetController/OverlayWidgetController.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Private/UI/Widgets/AuraUserWidget.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/GASLearning/Public/AbilitySystem/Ability/AuraProjectileSpell.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Public/AbilitySystem/AuraABilisystemLibrary.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Public/AbilitySystem/AuraAttributeSet.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Public/AbilitySystem/Data/AttributeInfo.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Public/AbilitySystem/ModMagCalc/MMC_MaxMana.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Public/Actor/AuraEffectActor.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/GASLearning/Public/Actor/AuraProjectile.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Public/Game/AuraGameModeBase.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/GASLearning/Public/Input/AuraInputComponent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/GASLearning/Public/Input/AuraInputConfig.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Public/Interaction/CombatInterface.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Public/Player/AuraPlayerController.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/GASLearning/Public/Player/AuraPlayerState.h" root0="FORCE_HIGHLIGHTING" />
@@ -249,7 +366,15 @@
       <workItem from="1780892164179" duration="10222000" />
       <workItem from="1780989043692" duration="2217000" />
       <workItem from="1781324693814" duration="528000" />
-      <workItem from="1781499562195" duration="791000" />
+      <workItem from="1781499562195" duration="5659000" />
+      <workItem from="1781578627540" duration="2207000" />
+      <workItem from="1781581102932" duration="821000" />
+      <workItem from="1781858216621" duration="532000" />
+      <workItem from="1782088089465" duration="9117000" />
+      <workItem from="1782124847237" duration="25000" />
+      <workItem from="1782179198171" duration="7128000" />
+      <workItem from="1782882139691" duration="10527000" />
+      <workItem from="1782967579348" duration="5205000" />
     </task>
     <task id="LOCAL-00001" summary="5.9">
       <option name="closed" value="true" />
@@ -283,7 +408,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779949546299</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Gameplay Ability Begin">
+      <option name="closed" value="true" />
+      <created>1781500398313</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1781500398313</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +441,8 @@
     <MESSAGE value="Gameplay Effects begin" />
     <MESSAGE value="GameTag Begin" />
     <MESSAGE value=" Initialize Attributes from a Data Table" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Initialize Attributes from a Data Table" />
+    <MESSAGE value="Gameplay Ability Begin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gameplay Ability Begin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
