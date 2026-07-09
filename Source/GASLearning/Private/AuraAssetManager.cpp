@@ -3,6 +3,9 @@
 
 #include "AuraAssetManager.h"
 
+#include "AbilitySystemComponent.h"
+#include "AbilitySystemGlobals.h"
+
 UAuraAssetManager& UAuraAssetManager::Get()
 {
 	check(GEngine);
@@ -14,6 +17,9 @@ UAuraAssetManager& UAuraAssetManager::Get()
 void UAuraAssetManager::StartInitialLoading()
 {
 	Super::StartInitialLoading();
-	
 	FAuraGameplayTags::InitializeNativeGameplayTags();
+	
+	//这是目标数据所需要的
+	
+	UAbilitySystemGlobals::Get().InitGlobalData();
 }

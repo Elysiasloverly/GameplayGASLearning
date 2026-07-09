@@ -80,39 +80,41 @@ void AAuraPlayerController::AbilityInputTagReleased(FGameplayTag InputTag)
 		{
 			GetASC()->AbilityInputTagReleased(InputTag);
 		}
+		bTargeting = false;
 		return;
 	}
 	
-	if (bTargeting)
+	if (GetASC())
+	{
+		GetASC()->AbilityInputTagReleased(InputTag);
+	}
+	
+	if (!bTargeting && !bShiftKeyDown)
 	{
 		if (GetASC())
 		{
-			GetASC()->AbilityInputTagReleased(InputTag);
-		}
-	}
-	else
-	{
-		APawn* ContorlledPawn = GetPawn();
-		if (FollowTime <= ShortPressThreshold)
-		{
-			if (UNavigationPath* NavPath = UNavigationSystemV1::FindPathToLocationSynchronously(this,ContorlledPawn->GetActorLocation(),CachedDestination))
+			const APawn* ContorlledPawn = GetPawn();
+			if (FollowTime <= ShortPressThreshold)
 			{
-				if (NavPath->PathPoints.Num() > 0)
+				if (UNavigationPath* NavPath = UNavigationSystemV1::FindPathToLocationSynchronously(this,ContorlledPawn->GetActorLocation(),CachedDestination))
 				{
-					Spline->ClearSplinePoints();
-					for (const FVector& PointLoc : NavPath->PathPoints)
+					if (NavPath->PathPoints.Num() > 0)
 					{
-						Spline->AddSplinePoint(PointLoc,ESplineCoordinateSpace::World);
-						DrawDebugSphere(GetWorld(),PointLoc,8,8,FColor::Green,false,5);
-					}
+						Spline->ClearSplinePoints();
+						for (const FVector& PointLoc : NavPath->PathPoints)
+						{
+							Spline->AddSplinePoint(PointLoc,ESplineCoordinateSpace::World);
+							DrawDebugSphere(GetWorld(),PointLoc,8,8,FColor::Green,false,5);
+						}
 					
-					CachedDestination = NavPath->PathPoints.Last();
-					bAutoRunning = true;
+						CachedDestination = NavPath->PathPoints.Last();
+						bAutoRunning = true;
+					}
 				}
 			}
+			FollowTime = 0;
+			bTargeting = false;
 		}
-		FollowTime = 0;
-		bTargeting = false;
 	}
 }
 
@@ -137,7 +139,6 @@ void AAuraPlayerController::AbilityInputTagHeld(FGameplayTag InputTag)
 	else
 	{
 		FollowTime += GetWorld()->GetDeltaSeconds();
-		
 		if (CursorHit.bBlockingHit)
 		{
 			CachedDestination = CursorHit.ImpactPoint;
@@ -187,6 +188,8 @@ void AAuraPlayerController::SetupInputComponent()
 	
 	UAuraInputComponent* AuraInputComponent = CastChecked<UAuraInputComponent>(InputComponent);
 	AuraInputComponent->BindAction(MoveAction,ETriggerEvent::Triggered,this,&AAuraPlayerController::Move);
+	AuraInputComponent->BindAction(SHIFTAction,ETriggerEvent::Triggered,this,&AAuraPlayerController::ShiftPressed);
+	AuraInputComponent->BindAction(SHIFTAction,ETriggerEvent::Completed,this,&AAuraPlayerController::ShiftReleased);
 	AuraInputComponent->BindAbilityAction(InputConfig,this,&ThisClass::AbilityInputTagPressed,&ThisClass::AbilityInputTagReleased,&ThisClass::AbilityInputTagHeld);
 	
 	
